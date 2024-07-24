@@ -6,15 +6,15 @@
 
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+To run this code , you will need to add the following environment variables to your .env file
 
 `SOLANA_RPC_URL` - RPC end point
 
-`PUBLIC_KEY` - Key of the wallet 
+`WALLET_ADDRESS` - Key of the wallet 
 
 The above variables should be declared and initialized in 
 
-`.env.local` file
+`.env` file
 
 
 
@@ -28,7 +28,7 @@ need some packages which are listed in package.json
 
 
 
-After setting up the `.env.local` file run these commands in the terminal and then open localhost which will be given after deployment
+After setting up the `.env` file run these commands in the terminal and then open localhost which will be given after deployment
 
 ```bash
  npm init
