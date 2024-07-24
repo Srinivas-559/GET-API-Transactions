@@ -45,20 +45,32 @@ After setting up the `.env` file run these commands in the terminal and then ope
 
 ```
 {
-    "index": 1,
-    "signature": "3ShMAXvJczacB1ALpBUdCAbx9FNdoMeAkurH2ePyLQ5t1HwYPi9iUdyn7rhoUogNzbsSdKkJWAZ16kbGSWWJfQTB",
-    "date": "2024-07-23T09:29:14.000Z",
-    "status": "finalized",
-    "slot": 279183092,
-    "fee": 5000,
-    "accountKeys": [
-      "4UYjrT5hmMTh9pLFg1Mxh49besnAeCc23qFoZc6WnQkK",
-      "ADaUMid9yfUytqMBgopwjb2DTLSokTSzL1zt6iGPaS49",
-      "11111111111111111111111111111111"
-    ],
-    "instruction": "3Bxs4ffTu9T19DNF",
-    "error": "None"
-  },
+  "status": "success",
+  "message": "Activity retrieved successfully",
+  "data": [
+    {
+      "uuid": "7a8b8bce-e447-4f5e-94ec-7426a12209a0",
+      "network": "Solana",
+      "fee": 5000,
+      "compute_units_consumed": 150,
+      "timestamp": "2024-07-23T09:29:14.000Z",
+      "type": "send_token",
+      "wallet_address": "4UYjrT5hmMTh9pLFg1Mxh49besnAeCc23qFoZc6WnQkK",
+      "transaction_hash": "3ShMAXvJczacB1ALpBUdCAbx9FNdoMeAkurH2ePyLQ5t1HwYPi9iUdyn7rhoUogNzbsSdKkJWAZ16kbGSWWJfQTB",
+      "metadata": {},
+      "token": {
+        "uuid": "1d6b90e2-335a-4d8b-957b-fd004d3012e6",
+        "network": "Solana",
+        "contract_address": "4UYjrT5hmMTh9pLFg1Mxh49besnAeCc23qFoZc6WnQkK",
+        "name": "Wrapped SOL",
+        "symbol": "SOL",
+        "decimals": 9,
+        "display_decimals": 2,
+        "logo_url": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png"
+      },
+      "explorer_url": "https://solscan.io/tx/3ShMAXvJczacB1ALpBUdCAbx9FNdoMeAkurH2ePyLQ5t1HwYPi9iUdyn7rhoUogNzbsSdKkJWAZ16kbGSWWJfQTB?cluster=mainnet-beta"
+    },
+}
 ```
 
 
