@@ -1,0 +1,22 @@
+{
+  "name": "get-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.1",
+    "axios": "^1.7.2",
+    "base64url": "^3.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "rate-limiter-flexible": "^5.0.3",
+    "retry-axios": "^3.1.3"
+  }
+}
