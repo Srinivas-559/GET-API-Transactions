@@ -1,6 +1,10 @@
 
 # A GET API for Transactions Details 
 
+# OUTPUT 
+
+<img width="1470" alt="Screenshot 2024-07-25 at 10 25 33 AM" src="https://github.com/user-attachments/assets/be3d296b-ac75-483c-b668-55ebf338b081">
+
 
 
 
