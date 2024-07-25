@@ -1,0 +1,26 @@
+/* App.css */
+.container {
+  max-width: 100%;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+
+th, td {
+  text-align: center;
+  white-space: normal;
+}
+
+tbody tr {
+  height: 50px; /* fixed height for all rows */
+  transition: height 0.3s ease;
+}
+
+tbody tr.expanded {
+  height: auto; /* allow expansion */
+}
